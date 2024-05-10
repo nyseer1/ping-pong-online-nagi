@@ -1,0 +1,65 @@
+.container {
+  overflow-y: scroll;
+  height: 100vh;
+  background-color: #8E8673;
+}
+
+.canvas-container {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+canvas {
+  display: inline;
+}
+
+.score {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.winner {
+  text-align: center;
+}
+
+.replay {
+  width: 100%;
+  text-align: center;
+}
+
+.replay button {
+  margin-top: 10px;
+  width: 150px;
+  height: 50px;
+  font-size: 1.5rem;
+}
+
+.pauseInfo {
+  bottom: 0;
+  text-align: center;
+  font-size: 1.75rem;
+}
+
+
+p {
+  -webkit-text-stroke-color: white;
+  -webkit-text-stroke-width: 2px;
+  font-size: 60px;
+  top: 20%;
+  text-align: center;
+}
+
+h2 {
+
+  -webkit-text-stroke-color: white;
+  -webkit-text-stroke-width: 2px;
+  font-size: 60px;
+  top: 20%;
+}
+
+.game-buttons{
+  
+}

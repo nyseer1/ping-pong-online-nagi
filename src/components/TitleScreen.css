@@ -1,0 +1,110 @@
+.title-screen .App-background {
+  /* opacity: 0.1; */
+  background-image: url("../images/title.png");
+  background-color: rgba(0, 0, 139, 0.5);
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* z-index: -1; */
+}
+
+.title-screen .title-image {
+  width: 1000px;
+}
+
+.title-screen h1 {
+  font-size: 40px;
+  border-radius: 25px;
+  padding: 10px;
+  background-color: rgba(109, 54, 2, 0.658);
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+
+}
+
+.title-screen p.h1 {
+  font-weight: bold;
+  background-color: rgba(109, 54, 2, 0.658);
+  margin: auto;
+  border-radius: 25px;
+  padding: 10px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.title-screen p {
+  font-size: 20px;
+}
+
+.title-screen .App-header {
+  position: absolute; 
+  top: 60%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  width: 500px; 
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.7); 
+  border-radius: 10px; 
+  box-sizing: border-box;
+  color: #333; 
+}
+
+.title-screen h2 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.title-screen main {
+  background-color: bisque;
+}
+
+.title-screen p.h2 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.title-screen .about {
+  background-color: rgb(236, 196, 162);
+}
+
+.title-screen .col {
+  font-size: 25px;
+}
+
+.title-screen footer {
+  background-color: rgb(137, 255, 222);
+  font-size: 25px;
+  text-align: center;
+}
+
+/*Button styling*/
+.title-screen .button {
+  width: 100%; 
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 10px;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+/*Input field*/
+.title-screen #username {
+  width: 100%; 
+  padding: 10px;
+  margin-bottom: 1rem;
+}
+
